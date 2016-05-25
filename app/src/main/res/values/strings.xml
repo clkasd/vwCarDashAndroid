@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">vwcardash</string>
+    <string name="sample_device_admin">CarDashAdmin</string>
+    <string name="sample_device_admin_description">Araba Akıllı Tablet için izin</string>
+    <string name="admin_receiver_status">receiver_status</string>
+    <string name="admin_receiver_status_enabled">aktif</string>
+    <string name="admin_receiver_status_disable_warning">disable warning</string>
+    <string name="admin_receiver_status_disabled">pasif</string>
+    <string name="admin_receiver_status_pw_changed">değiştirildi</string>
+    <string name="seekdown"><![CDATA[<<]]></string>
+</resources>

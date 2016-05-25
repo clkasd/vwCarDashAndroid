@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#000000">
+
+
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        fancy:fb_defaultColor="#B40431"
+        fancy:fb_focusColor="#9bd823"
+        fancy:fb_radius="30dp"
+        fancy:fb_text=">>"
+        android:id="@+id/seekup"
+        android:layout_marginLeft="710dp"
+        android:layout_marginTop="580dp"
+        fancy:fb_textColor="#FFFFFF" />
+
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        fancy:fb_defaultColor="#B40431"
+        fancy:fb_focusColor="#9bd823"
+        fancy:fb_radius="30dp"
+        fancy:fb_text="@string/seekdown"
+        android:id="@+id/seekdown"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="580dp"
+        fancy:fb_textColor="#FFFFFF" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="100.0"
+        android:layout_marginTop="570dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/currentFreq"
+        android:textColor="#ffffff"
+        android:textSize="38dp"/>
+
+
+
+    <!--BUTTONS-->
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        fancy:fb_defaultColor="#2E64FE"
+        fancy:fb_focusColor="#9bd823"
+        fancy:fb_radius="30dp"
+        fancy:fb_text="1.Kanal"
+        android:id="@+id/firstchannel"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="150dp"
+        fancy:fb_textColor="#FFFFFF" />
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        fancy:fb_defaultColor="#2E64FE"
+        fancy:fb_focusColor="#9bd823"
+        fancy:fb_radius="30dp"
+        fancy:fb_text="2.Kanal"
+        android:id="@+id/secondchannel"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="240dp"
+        fancy:fb_textColor="#FFFFFF" />
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        fancy:fb_defaultColor="#2E64FE"
+        fancy:fb_focusColor="#9bd823"
+        fancy:fb_radius="30dp"
+        fancy:fb_text="3.Kanal"
+        android:id="@+id/thirdchannel"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="330dp"
+        fancy:fb_textColor="#FFFFFF" />
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        fancy:fb_defaultColor="#2E64FE"
+        fancy:fb_focusColor="#9bd823"
+        fancy:fb_radius="30dp"
+        fancy:fb_text="4.Kanal"
+        android:id="@+id/fourthchannel"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="420dp"
+        fancy:fb_textColor="#FFFFFF" />
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        fancy:fb_defaultColor="#2E64FE"
+        fancy:fb_focusColor="#9bd823"
+        fancy:fb_radius="30dp"
+        fancy:fb_text="5.Kanal"
+        android:id="@+id/fifthchannel"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="510dp"
+        fancy:fb_textColor="#FFFFFF" />
+    <!--//LEFT SIDE-->
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        fancy:fb_defaultColor="#2E64FE"
+        fancy:fb_focusColor="#9bd823"
+        fancy:fb_radius="30dp"
+        fancy:fb_text="6.Kanal"
+        android:id="@+id/sixthchannel"
+        android:layout_marginLeft="580dp"
+        android:layout_marginTop="150dp"
+        fancy:fb_textColor="#FFFFFF" />
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        fancy:fb_defaultColor="#2E64FE"
+        fancy:fb_focusColor="#9bd823"
+        fancy:fb_radius="30dp"
+        fancy:fb_text="7.Kanal"
+        android:id="@+id/seventhchannel"
+        android:layout_marginLeft="680dp"
+        android:layout_marginTop="240dp"
+        fancy:fb_textColor="#FFFFFF" />
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        fancy:fb_defaultColor="#2E64FE"
+        fancy:fb_focusColor="#9bd823"
+        fancy:fb_radius="30dp"
+        fancy:fb_text="8.Kanal"
+        android:id="@+id/eightchannel"
+        android:layout_marginLeft="710dp"
+        android:layout_marginTop="330dp"
+        fancy:fb_textColor="#FFFFFF" />
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        fancy:fb_defaultColor="#2E64FE"
+        fancy:fb_focusColor="#9bd823"
+        fancy:fb_radius="30dp"
+        fancy:fb_text="9.Kanal"
+        android:id="@+id/ninethchannel"
+        android:layout_marginLeft="680dp"
+        android:layout_marginTop="420dp"
+        fancy:fb_textColor="#FFFFFF" />
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        fancy:fb_defaultColor="#2E64FE"
+        fancy:fb_focusColor="#9bd823"
+        fancy:fb_radius="30dp"
+        android:id="@+id/tenthchannel"
+        fancy:fb_text="10.Kanal"
+        android:layout_marginLeft="580dp"
+        android:layout_marginTop="510dp"
+        fancy:fb_textColor="#FFFFFF" />
+    <org.adw.library.widgets.discreteseekbar.DiscreteSeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioSeek"
+        android:layout_below="@id/currentFreq"
+        app:dsb_min="8900"
+        app:dsb_max="10700"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#000000"
+    android:layout_height="match_parent">
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        fancy:fb_defaultColor="#B40431"
+        fancy:fb_focusColor="#9bd823"
+        fancy:fb_radius="30dp"
+        fancy:fb_text="Spotify"
+        android:id="@+id/openSpotify"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="150dp"
+        fancy:fb_textColor="#FFFFFF" />
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        fancy:fb_defaultColor="#B40431"
+        fancy:fb_focusColor="#9bd823"
+        fancy:fb_radius="30dp"
+        fancy:fb_text="Google Maps"
+        android:id="@+id/openGMaps"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="240dp"
+        fancy:fb_textColor="#FFFFFF" />
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        fancy:fb_defaultColor="#B40431"
+        fancy:fb_focusColor="#9bd823"
+        fancy:fb_radius="30dp"
+        fancy:fb_text="Yandex Navi"
+        android:id="@+id/openYandexNavi"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="330dp"
+        fancy:fb_textColor="#FFFFFF" />
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        fancy:fb_defaultColor="#B40431"
+        fancy:fb_focusColor="#9bd823"
+        fancy:fb_radius="30dp"
+        fancy:fb_text="You Tube"
+        android:id="@+id/openYoutube"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="420dp"
+        fancy:fb_textColor="#FFFFFF" />
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        fancy:fb_defaultColor="#B40431"
+        fancy:fb_focusColor="#9bd823"
+        fancy:fb_radius="30dp"
+        fancy:fb_text="Internet"
+        android:id="@+id/openChrome"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="510dp"
+        fancy:fb_textColor="#FFFFFF" />
+    <!--//LEFT SIDE-->
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        fancy:fb_defaultColor="#B40431"
+        fancy:fb_focusColor="#9bd823"
+        fancy:fb_radius="30dp"
+        fancy:fb_text="FM Radio"
+        android:id="@+id/openfmRadio"
+        android:layout_marginLeft="580dp"
+        android:layout_marginTop="150dp"
+        fancy:fb_textColor="#FFFFFF" />
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        fancy:fb_defaultColor="#B40431"
+        fancy:fb_focusColor="#9bd823"
+        fancy:fb_radius="30dp"
+        fancy:fb_text="Facebook"
+        android:id="@+id/openFacebook"
+        android:layout_marginLeft="680dp"
+        android:layout_marginTop="240dp"
+        fancy:fb_textColor="#FFFFFF" />
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        fancy:fb_defaultColor="#B40431"
+        fancy:fb_focusColor="#9bd823"
+        fancy:fb_radius="30dp"
+        fancy:fb_text="Twitter"
+        android:id="@+id/openTwitter"
+        android:layout_marginLeft="710dp"
+        android:layout_marginTop="330dp"
+        fancy:fb_textColor="#FFFFFF" />
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        fancy:fb_defaultColor="#B40431"
+        fancy:fb_focusColor="#9bd823"
+        fancy:fb_radius="30dp"
+        fancy:fb_text="Haberler"
+        android:id="@+id/openHaberler"
+        android:layout_marginLeft="680dp"
+        android:layout_marginTop="420dp"
+        fancy:fb_textColor="#FFFFFF" />
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        fancy:fb_defaultColor="#B40431"
+        fancy:fb_focusColor="#9bd823"
+        fancy:fb_radius="30dp"
+        android:id="@+id/openSettings"
+        fancy:fb_text="Ayarlar"
+        android:layout_marginLeft="580dp"
+        android:layout_marginTop="510dp"
+        fancy:fb_textColor="#FFFFFF" />
+
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:id="@+id/btn_on_off"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="100dp"
+        android:padding="10dp"
+        fancy:fb_defaultColor="#55acee"
+        fancy:fb_focusColor="#313131"
+        fancy:fb_text="I/O"
+        fancy:fb_iconPaddingLeft="0dp"
+        fancy:fb_iconPaddingRight="0dp"
+        fancy:fb_radius="64dp"
+        fancy:fb_textColor="#FFFFFF" />
+
+
+</RelativeLayout>
